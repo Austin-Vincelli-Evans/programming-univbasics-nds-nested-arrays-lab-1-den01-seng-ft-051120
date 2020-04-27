@@ -20,7 +20,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  all_produce.sort
+  all_produce = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
   all_produce
 end
 
